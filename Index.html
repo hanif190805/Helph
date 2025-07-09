@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Healph - Konseling Online</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+    footer {
+      background-color: #f1f1f1;
+      color: black;
+      padding: 40px 0;
+    }
+
+    .test1{
+        background-color: #fff;
+        color: black;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid #ccc;
+    }
+
+    .navbar{
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success ">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">Healph.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Tentang Kami.html">Tentang Kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="konseling.html">Konseling</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Daftar.html">Daftar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="artikel_fp.html">Artikel</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--carousel-->
+<div class="position-relative mb-4 mt-4" style=" background-image: url('https://i.pinimg.com/736x/20/0b/a0/200ba0d4269d726bb0d1d93b1a4dcea6.jpg'); background-size: cover; background-position: center; height: 400px;">
+  <div class="position-absolute top-50 start-50 translate-middle text-center px-3">
+    <h1 class="display-4 fw-bold fs-1">Healph - Help your Health</h1>
+    <p class="lead my-3">Healph adalah sebuah website kesehatan mental, yang hadir untuk membantu Anda menjaga kesehatan mental dan emosional. 
+      Kami percaya bahwa setiap orang berhak mendapatkan ruang yang aman untuk memahami diri, mendapatkan dukungan, dan berkembang..</p>
+    <a href="Tentang Kami.html" class="fw-bold">Continue reading...</a>
+  </div>
+</div>
+
+
+  <!-- Artikel -->
+  <section class="container py-5">
+    <h5 class="fw-bold mb-4">YUK BACA ARTIKEL SEPUTAR KESEHATAN MENTAL</h5>
+ <div class="card">
+ <div class="card text-center">
+  <div class="card-body">
+    <h5 class="card-title">Kesehatan Mental</h5>
+    <p class="card-text">Kumpulan artikel yang berisi informasi seputar kesehatan mental. Klik untuk melihat selengkapnya</p>
+    <a href="artikel_fp.html" class="btn btn-success">Ayo Baca</a>
+  </div>
+</div>
+  </section>
+
+  <!-- Konseling Section -->
+  <section class="container text-center">
+    <h5 class="fw-bold mb-4">MANFAAT LAYANAN KONSELING ONLINE</h5>
+    <div class="row justify-content-center g-4 konseling">
+      <div class="col-md-4">
+        <img src="data:image/jpeg;base64,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" alt="konseling" style="width: 250px;">
+        <h6 class="mt-2 fw-bold">Privasi Terjamin</h6>
+        <p>Setiap sesi dijamin kerahasiaannya, karena keamanan dan kenyamanan Anda adalah prioritas kami.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="https://connect-assets.prosple.com/cdn/ff/nJ_nOOlEMi4_KX1r2RUWI5ZWQ1mEF4ORpK3clwkTGxI/1650006336/public/inline-images/doctor-talking-unhappy-teenage-patient-exam-room.jpg" alt="konseling" style="width: 250px;">
+        <h6 class="mt-2 fw-bold">Bersama Profesional yang Berpengalaman</h6>
+        <p>Konselor dan psikolog di Healph adalah tenaga ahli yang tersertifikasi dan berpengalaman di bidangnya.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReCpSwvJ-AKkZumuY-aT22bVsVFLru9D5Xhw&s" alt="konseling" style="width: 250px; ;">
+        <h6 class="mt-2 fw-bold">Pendekatan Personal</h6>
+        <p>Setiap sesi disesuaikan dengan kebutuhan Anda, sehingga Anda bisa lebih nyaman dan terbuka.</p>
+      </div>
+    </div>
+    <div class="test1 test-section mt-5">
+      <h6 class="fw-bold">Healph - Help your Health</h6>
+      <button class="btn mt-2 btn-success" ><a href="Daftar.html " class="text-white">YUK TEST</a></button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center mt-5 ">
+    <div class="container">
+      <p class="mt-4">&copy; 2025 Healph | Hak Cipta Terlindungi</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
